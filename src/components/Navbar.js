@@ -1,9 +1,14 @@
 import React from "react";
+import { FiMenu } from "react-icons/fi";
 
 export const Navbar = () => {
   return (
-    <div>
+    <nav>
       <p>Navbar</p>
-    </div>
+      {/* Logo */}
+      {/* User Sign in */}
+      {/* Right Menu */}
+      <FiMenu />
+    </nav>
   );
 };
